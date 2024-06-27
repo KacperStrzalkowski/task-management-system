@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TeamController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\RegisteredUserController;
 
@@ -16,6 +17,10 @@ Route::middleware(['guest'])->group(function () {
 
 
 Route::middleware(['auth'])->group(function () {
+
+    Route::view("/", "dashboard.index");
+
     Route::delete("/logout", [SessionController::class, 'destroy']);
-    Route::view("/", "index");
+
+    Route::get("/teams", [TeamController::class, 'index']);
 });

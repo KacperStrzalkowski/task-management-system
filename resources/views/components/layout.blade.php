@@ -16,11 +16,11 @@
             </div>
             <div class="flex flex-col mt-8">
 
-            <x-nav-link name="Dashboard" link="/" />
-            <x-nav-link name="Teams" link="/" />
-            <x-nav-link name="Projects" link="/" />
-            <x-nav-link name="Calendar" link="/" />
-            <x-nav-link name="Reports" link="/" />
+            <x-nav-link name="Dashboard" link="/" :active="request()->is('/')" />
+            <x-nav-link name="Teams" link="/teams" :active="request()->is('teams')" />
+            <x-nav-link name="Projects" link="/" :active="request()->is('projects')" />
+            <x-nav-link name="Calendar" link="/" :active="request()->is('calendar')" />
+            <x-nav-link name="Reports" link="/" :active="request()->is('reports')" />
             
             </div>
             <div class="flex flex-col mt-12 gap-y-1">
