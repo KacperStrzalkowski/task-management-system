@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body class="h-screen">
-    <nav class="bg-nav h-screen max-w-80 flex flex-col justify-between pl-3 pr-6 py-3 rounded-br-lg font-poppins text-white/70">
-
+    <nav class="bg-nav min-h-screen max-w-80 flex flex-col justify-between pl-3 pr-6 py-3 rounded-br-lg font-poppins text-white/70">
         <div >
+            @auth 
             <div class="mt-2 ml-2">
                 <img src="https://placehold.co/48">
             </div>
@@ -36,7 +36,7 @@
         <div>
             <x-nav-link name="Settings" link="/" />
         </div>
-
+        @endauth
     </nav>
 </body>
 </html>

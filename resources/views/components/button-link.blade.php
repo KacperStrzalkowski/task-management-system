@@ -1,0 +1,1 @@
+<a {{ $attributes(['class' => 'bg-blue-800 px-3 py-2 rounded-md border border-white/20 hover:bg-blue-800/60 transition-colors delay-100']) }}>{{ $slot }}</a>
