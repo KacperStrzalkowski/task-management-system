@@ -33,8 +33,12 @@
             </div>
         </div>
 
-        <div>
-            <x-nav-link name="Settings" link="/" />
+        <div class="pl-3 py-3">
+            <x-forms.form method="POST" action="/logout">
+                @method('delete')
+                <x-forms.button type="submit">Logout</x-forms.button>
+
+            </x-forms.form>
         </div>
         @endauth
     </nav>
