@@ -7,8 +7,8 @@
     @vite('resources/js/app.js')
     <title>Document</title>
 </head>
-<body class="h-screen">
-    <nav class="bg-nav min-h-screen max-w-80 flex flex-col justify-between pl-3 pr-6 py-3 rounded-br-lg font-poppins text-white/70">
+<body class="flex h-screen bg-black/10 gap-x-6 font-poppins">
+    <nav class="flex flex-col justify-between flex-shrink-0 min-h-screen py-3 pl-3 pr-6 rounded-br-lg bg-nav w-80 max-w-80 font-poppins text-white/70">
         <div >
             @auth 
             <div class="mt-2 ml-2">
@@ -24,7 +24,7 @@
             
             </div>
             <div class="flex flex-col mt-12 gap-y-1">
-                <h6 class="pl-3 text-xs mb-2">Your teams</h6>
+                <h6 class="pl-3 mb-2 text-xs">Your teams</h6>
 
                 <x-team-link>Team 1</x-team-link>
                 <x-team-link>Team 1</x-team-link>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="pl-3 py-3">
+        <div class="py-3 pl-3">
             <x-forms.form method="POST" action="/logout">
                 @method('delete')
                 <x-forms.button type="submit">Logout</x-forms.button>
@@ -42,5 +42,6 @@
         </div>
         @endauth
     </nav>
+    {{ $slot }}
 </body>
 </html>
