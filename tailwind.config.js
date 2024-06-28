@@ -12,6 +12,9 @@ export default {
             fontSize: {
                 "2xs": "0.6rem",
             },
+            listStyleType: {
+                square: "square",
+            },
         },
     },
     plugins: [],

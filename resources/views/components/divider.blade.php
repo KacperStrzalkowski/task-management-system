@@ -1,1 +1,1 @@
-<hr class="mt-3 mb-3 bg-black" />
+<hr class="mt-3 mb-3 border border-black/25" />
