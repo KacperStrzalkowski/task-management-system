@@ -9,7 +9,7 @@ use Illuminate\Validation\ValidationException;
 class SessionController extends Controller
 {
     public function create(){
-        return view('auth.login');
+        return view('session.login');
     }
 
     public function store(Request $request)

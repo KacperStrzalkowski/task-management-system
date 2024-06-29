@@ -1,1 +1,1 @@
-<a {{ $attributes(['class' => 'cursor-pointer bg-blue-800 px-3 py-2 rounded-md border text-white/75 border-white/20 hover:bg-blue-800/70 transition-colors delay-100']) }}>{{ $slot }}</a>
+<a {{ $attributes(['class' => 'cursor-pointer bg-btn px-3 py-2 rounded-md border text-white/75 border-black/30 hover:bg-btn/80 transition-colors delay-100']) }}>{{ $slot }}</a>

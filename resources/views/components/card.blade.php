@@ -14,7 +14,7 @@
 @endphp
 
 <div {{ $attributes(['class' => $classes]) }}>
-    <h1 class="flex justify-between text-2xl font-bold">{{ $title }}</h1>
+    <h1 class="flex justify-between text-2xl font-bold items-center">{{ $title }}</h1>
     <x-divider />
     <div class="{{ $size == 'full' ? 'flex flex-row gap-x-3' : '' }}">
         {{ $content }}

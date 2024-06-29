@@ -8,10 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="flex justify-between min-w-full bg-blue-600 px-3 py-6 text-white/75 items-center">
-        <div>
-            TMS
-        </div>
+    <nav class="flex justify-between min-w-full bg-blue-600 px-36 py-6 text-white/75 items-center">
         <div>
             <h1 class="font-bold text-lg">Team Management System<h1>
         </div>

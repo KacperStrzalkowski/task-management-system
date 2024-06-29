@@ -5,7 +5,7 @@
         'type' => 'text',
         'id' => $name,
         'name' => $name,
-        'class' => 'px-5 py-1 w-1/3 text-start border border-black rounded-md',
+        'class' => 'px-5 py-1 w-full text-start border border-black/10 rounded-md',
         'value' => old($name)
 ];
 @endphp

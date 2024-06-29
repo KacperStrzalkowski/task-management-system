@@ -1,6 +1,6 @@
 @props(['label', 'name'])
 
-<div>
+<div class="mt-3 flex flex-col basis-1">
 @if ($label)
 <x-forms.label :$name :$label />
 @endif
