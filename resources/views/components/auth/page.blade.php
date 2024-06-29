@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="flex justify-between min-w-full bg-blue-600 px-36 py-6 text-white/75 items-center">
+    <nav class="flex justify-between min-w-full bg-nav px-36 py-6 text-white/75 items-center">
         <div>
             <h1 class="font-bold text-lg">Team Management System<h1>
         </div>
