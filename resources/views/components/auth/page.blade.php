@@ -7,7 +7,7 @@
     @vite('resources/js/app.js')
     <title>Document</title>
 </head>
-<body>
+<body class="bg-black/5">
     <nav class="flex justify-between min-w-full bg-nav px-36 py-6 text-white/75 items-center">
         <div>
             <h1 class="font-bold text-lg">Team Management System<h1>
